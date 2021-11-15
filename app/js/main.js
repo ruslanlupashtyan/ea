@@ -56,8 +56,6 @@ $(document).ready(function () {
       }
     ]
   });
-  
-
   $('.header__menu_btn').on('click', function () {
     if( !$('.for_toggle').hasClass('active') ){
       $('.for_toggle').addClass('active');
